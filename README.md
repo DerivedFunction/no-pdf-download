@@ -1,4 +1,4 @@
-# No PDF Download
+# No PDF Download (modified/forked version)
 
 ## New functionality
 Added a popup UI and an option to whitelist several URLS. Compatible with both Firefox and Chrome (for now) using manifest v2.
