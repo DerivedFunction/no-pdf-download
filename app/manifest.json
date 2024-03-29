@@ -3,17 +3,17 @@
   "name": "No PDF Download (Modified)",
   "description": "Opens all PDF files directly in the browser. Modified to include a whitelist",
   "version": "1.1.0",
-  "options_page": "options.html",
   "options_ui": {
-  "page": "options.html"
-},
-"browser_specific_settings": {
-  "gecko": {
-    "id": "ytdli08@gmail.com"
-  }
-},
+    "page": "options.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ytdli08@gmail.com"
+    }
+  },
+  "description": "A fork of https://github.com/MorbZ/no-pdf-download. Allows a custom whitelist and other options.",
 
- "browser_action": {
+  "browser_action": {
     "default_icon": "icon_128.png",
     "default_title": "No PDF Download",
     "default_popup": "options.html"
