@@ -48,7 +48,7 @@ const displayWhitelist = () => {
         // Save the updated whitelist
         chrome.storage.sync.set({ whitelist }, () => {
           // Refresh whitelist display
-          showStatus("Entry edited to the whitelist.");
+          showStatus("Entry edited and saved to the whitelist.");
           displayWhitelist();
         });
       });

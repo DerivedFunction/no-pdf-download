@@ -91,3 +91,7 @@ button {
 .remove-button:hover {
   background-color: #cc0000;
 }
+
+#notes {
+  padding-top: 10px;
+}

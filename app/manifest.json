@@ -14,7 +14,7 @@
   "description": "A fork of https://github.com/MorbZ/no-pdf-download. Allows a custom whitelist and other options.",
 
   "browser_action": {
-    "default_icon": "icon_128.png",
+    "default_icon": "icons/icon_128.png",
     "default_title": "No PDF Download",
     "default_popup": "options.html"
   },
@@ -25,6 +25,8 @@
   },
 
   "icons": {
-    "128": "icon_128.png"
+    "128": "icons/icon_128.png",
+    "48": "icons/icon_128.png",
+    "16": "icons/icon_128.png"
   }
 }
