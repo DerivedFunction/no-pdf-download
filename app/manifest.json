@@ -1,23 +1,15 @@
 {
-    "manifest_version": 2,
-    "name": "No PDF Download",
-    "description": "Opens all PDF files directly in the browser.",
-    "version": "1.0.6",
+  "manifest_version": 2,
+  "name": "No PDF Download (Modified)",
+  "description": "Opens all PDF files directly in the browser. Modified to include a whitelist",
+  "version": "1.0.6",
+  "options_page": "options.html",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>", "storage"],
+  "background": {
+    "scripts": ["src/headers.js", "src/background.js"]
+  },
 
-    "permissions": [
-        "webRequest",
-        "webRequestBlocking",
-        "<all_urls>"
-    ],
-
-    "background": {
-        "scripts": [
-            "src/headers.js",
-            "src/background.js"
-        ]
-    },
-
-    "icons": {
-        "128": "icon_128.png"
-    }
+  "icons": {
+    "128": "icon_128.png"
+  }
 }
