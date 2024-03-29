@@ -2,6 +2,7 @@
 
 ## New functionality
 Added a popup UI and an option to whitelist several URLS. Compatible with both Firefox and Chrome (for now) using manifest 2.
+![HTML popup and whitelist UI](https://github.com/DerivedFunction/no-pdf-download/assets/81781562/c1305dae-828b-437b-a7b3-58f04f37c951)
 
 [![Original Fork: Build Status](https://travis-ci.org/MorbZ/no-pdf-download.svg?branch=master)](https://travis-ci.org/MorbZ/no-pdf-download)
 
