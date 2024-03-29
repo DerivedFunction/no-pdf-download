@@ -1,0 +1,91 @@
+/* Style for the body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Style for the h1 heading */
+h1 {
+  color: #333;
+}
+
+/* Style for the h2 headings */
+h2 {
+  color: #555;
+}
+
+/* Style for the input and button elements */
+input[type="text"],
+button {
+  padding: 8px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+/* Style for the addEntry button */
+#addEntry {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+/* Style for the status div */
+#status {
+  margin-top: 10px;
+  color: #007bff; /* Blue */
+}
+
+/* Style for the whitelist table */
+#whitelist {
+  width: 100%;
+  border-collapse: collapse;
+}
+/* Style for table rows */
+#whitelist tr {
+  border-bottom: 1px solid #ddd;
+  height: 40px; /* Set a fixed height for the rows */
+}
+/* Style for the first column */
+#whitelist th:first-child {
+  width: 75%; /* Set a fixed width for the first column */
+  max-width: 75%; /* Ensure that the width does not exceed 75% */
+}
+/* Style for the second column */
+#whitelist th:last-child {
+  width: 25%; /* Set a fixed width for the second column */
+  max-width: 25%; /* Ensure that the width does not exceed 25% */
+}
+/* Style for the table headers */
+#whitelist th {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style for the table cells */
+#whitelist td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Style for the remove button */
+.remove-button {
+  background-color: #ff0000; /* Red */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Style for the editable text input */
+.editable-textbox {
+  width: auto;
+  min-width: 100%; /* Set a minimum width if needed */
+}
+
+/* Hover effect for the remove button */
+.remove-button:hover {
+  background-color: #cc0000;
+}
