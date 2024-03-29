@@ -3,9 +3,12 @@
   <head>
     <title>No PDF Download Extension Options</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="icons/icon_16.png">
   </head>
   <body>
-    <h1>Whitelist Settings (Download the PDFs)</h1>
+    <h1><img src="icons/icon_48.png"> Whitelist Settings (Download the PDFs)</h1>
+    <hr />
+    <div id="status"></div>
     <div>
       <h2>Current Whitelist</h2>
       <table id="whitelist">
@@ -24,9 +27,14 @@
       <input type="text" id="newEntry" placeholder="Enter URL" />
       <button id="addEntry">Add</button>
     </div>
-
-    <div id="status"></div>
     <script src="options.js"></script>
-    <sub style="position:absolute; bottom:0;">Open Web Development Tools, go to Network, and find the URL that contains the pdf.<hr /></sub>
+    <div>
+      <hr />
+      <sub id = "notes">
+        Open Web Development Tools, go to Network, and find the URL that
+        contains the pdf.
+        <hr />
+      </sub>
+    </div>
   </body>
 </html>
